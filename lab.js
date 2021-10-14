@@ -148,12 +148,18 @@ while (score < passingScore) {
 ////////// PROBLEM 9 //////////
 /*
   Create a variable called 'changeMyMind' and set it equal to true. 
-  Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
+  Check to see if changeMyMind is set to true or false, if it is true, 
+  change the status to false, if it is false, change the status to true.
 
 */
 
 //CODE HERE
-
+let changeMyMind = true
+if (changeMyMind) {
+  console.log("false");
+} else {
+  console.log("true");
+}
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
