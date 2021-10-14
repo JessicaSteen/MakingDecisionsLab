@@ -172,7 +172,7 @@ else {changeMyMind = true
 
 //CODE HERE
 
-changeMyMind = !changeMyMind
+changeMyMind = !false
 console.log(changeMyMind)
 ////////// ADVANCED PROBLEMS //////////
 
